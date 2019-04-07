@@ -37,7 +37,7 @@ h1 {
 /* Your CSS code goes here */
 .container {
 	display: grid;
-	grid-template-columns: 315px 315px 315px 315px;
+	grid-template-columns: 245px 245px 245px 245px;
 	grid-template-rows: auto;
 	grid-template-areas:
 		". header header ."
@@ -45,7 +45,10 @@ h1 {
 		". money money ."
 		". link . ."
 		". footer footer .";
-	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	grid-row-gap: 15px;
+	grid-column-gap: 15px;
 	/*margin: 2em auto;
 	max-width: 630px;
 	text-align: center; */
@@ -53,16 +56,18 @@ h1 {
 
 .header {
 	grid-area: header;
+	padding: 30px 60px;
 	background-color: #424242;
 	border-radius: .4em;
-	padding: 30px;
-	margin-bottom: 20px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	line-height: 1.4;
+	font-size: 15px;
 }
 
 .main {
 	grid-area: main;
 	border: 2px solid #eaeaea;
-
+	border-top: 20px solid #ef5f3c;
 }
 
 .money {
@@ -88,7 +93,6 @@ h1 {
 }
 
 .second {
-	margin-top: 20px;
 	border-radius: .4em;
 	padding: 15px;
 	border: 2px solid #eaeaea;
@@ -109,8 +113,11 @@ h2 {
 	color: #ffffff;
 }
 
-p {
+p.content {
+	justify-self: center;
 	color: #777;
 	line-height: 1.4;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 20px;
 }
 
