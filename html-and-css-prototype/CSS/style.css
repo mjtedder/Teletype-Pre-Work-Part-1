@@ -18,11 +18,6 @@ h1 {
 	font-weight: bold;
 }
 
-.container {
-	margin: 2em auto;
-	max-width: 630px;
-	text-align: center;
-}
 
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
 
@@ -40,3 +35,64 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 2em auto;
+	max-width: 630px;
+	text-align: center;
+}
+
+.header {
+	background-color: #424242;
+	border-radius: .4em;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.main {
+	border: 2px solid #eaeaea;
+}
+
+.money {
+	border-radius: .4em;
+	padding: 20px;
+	border: 2px solid #eaeaea;
+	font-size: 20px;
+}
+
+.first {
+	background-color: #1CBC2C;
+	border-radius: .4em;
+	padding: 20px;
+	border: 2px solid #eaeaea;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.second {
+	margin-top: 20px;
+	border-radius: .4em;
+	padding: 15px;
+	border: 2px solid #eaeaea;
+	font-size: 20px;
+	color: #777;
+	background: #ffffff;
+}
+
+a {
+	font-style: italic;
+	color: #20A1D4;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+h2 {
+	color: #ffffff;
+}
+
+p {
+	color: #777;
+	line-height: 1.4;
+}
+
