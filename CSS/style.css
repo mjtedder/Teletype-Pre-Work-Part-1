@@ -67,7 +67,14 @@ h1 {
 .main {
 	grid-area: main;
 	border: 2px solid #eaeaea;
-	border-top: 20px solid #ef5f3c;
+}
+
+.progress {
+	height: 20px;
+	position: relative;
+	background: #EF5F3C;
+	width: 75%;
+	border: 2px solid #eaeaea;
 }
 
 .money {
