@@ -35,6 +35,10 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+/* CSS CLASS SELECTOR SECTION */
+/* ---------------------------------------------------- */
+/* Creating CSS grid */
 .container {
 	display: grid;
 	grid-template-columns: 245px 245px 245px 245px;
@@ -52,6 +56,7 @@ h1 {
 	text-align: center; */
 }
 
+/* Tooltip content */
 .header {
 	margin-top: 20px;
 	grid-area: header;
@@ -64,12 +69,22 @@ h1 {
 	font-size: 15px;
 }
 
+/* Main card content */
 .main {
 	grid-area: main;
 	border: 2px solid #eaeaea;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 }
 
+/* Styling for text in main card */
+.content {
+	margin: 10px 20px;
+	color: #777;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 30px;
+}
+
+/* Progress bar */
 .progress {
 	height: 20px;
 	position: relative;
@@ -78,6 +93,10 @@ h1 {
 	border: 2px solid #eaeaea;
 }
 
+/* TODO: Get remaining 25% shaded gray and with a border */
+
+/* Text box - I made it a button in order to style font.  Couldn't figure out how to style
+it as placeholder text */
 .input {
 	margin-right: 30px;
 	text-align: left;
@@ -89,6 +108,7 @@ h1 {
 	width: 40%;
 }
 
+/* Green button content */
 .first {
 	margin-left: 30px;
 	background-color: #1CBC2C;
@@ -100,12 +120,14 @@ h1 {
 	width: 40%;
 }
 
+/* Adding grid to footer section */
 .footer {
 	grid-area: footer;
 	justify-self: stretch;
 	align-self: center;
 }
 
+/* Bottom buttons styling */
 .second {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	border-radius: .4em;
@@ -119,17 +141,15 @@ h1 {
 	width: 45%;
 }
 
+/* I had to set an ID on the second button to get it aligned where I need it.  A solution to this would
+be to implement CSS grids more effectively. */
 #margin {
 	margin-left: 45px;
 }
 
-.content {
-	margin: 10px 20px;
-	color: #777;
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	font-size: 30px;
-}
-
+/* HTML ELEMENT SECTION STYLING */
+/* -------------------------------------------------------- */
+/* Link styling */
 a {
 	line-height: 1.4;
 	font-style: italic;
@@ -138,6 +158,7 @@ a {
 	text-decoration: none;
 }
 
+/* Font styling */
 h2 {
 	font-size: 25px;
 	color: #eaeaea;
