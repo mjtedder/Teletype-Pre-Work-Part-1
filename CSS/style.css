@@ -103,19 +103,24 @@ h1 {
 .footer {
 	grid-area: footer;
 	justify-self: stretch;
+	align-self: center;
 }
 
 .second {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	border-radius: .4em;
-	padding: 10px 20px;
+	padding: 10px 30px;
 	border: 2px solid #eaeaea;
 	font-size: 20px;
 	color: #424242;
 	background: #ffffff;
 	font-weight: bold;
-	box-shadow: 1px;
-	width: 40%;
+	box-shadow: 1px 3px outset;
+	width: 45%;
+}
+
+#margin {
+	margin-left: 45px;
 }
 
 .content {
