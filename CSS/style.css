@@ -37,7 +37,7 @@ h1 {
 /* Your CSS code goes here */
 
 /* CSS CLASS SELECTOR SECTION */
-/* ---------------------------------------------------- */
+/* ----------------------------------------------------
 /* Creating CSS grid */
 .container {
 	display: grid;
@@ -67,6 +67,29 @@ h1 {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	line-height: 1.4;
 	font-size: 15px;
+	position: relative;
+}
+
+#tail1 {
+    position: absolute;
+    bottom: -20px;
+    right: 50px;
+	width: 0;
+	height: 0;
+    border-color: #424242 transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#tail2 {
+    position: absolute;
+    bottom: -18px;
+    right: 50px;
+	width: 0;
+	height: 0;
+    border-color: #424242 transparent transparent transparent;
+    border-width: 10px;
+    border-style: solid;
 }
 
 /* Main card content */
