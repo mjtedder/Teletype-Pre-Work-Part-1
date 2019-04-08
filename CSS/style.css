@@ -56,7 +56,7 @@ h1 {
 	text-align: center; */
 }
 
-/* Tooltip content */
+/* Header content */
 .header {
 	margin-top: 20px;
 	grid-area: header;
@@ -70,6 +70,7 @@ h1 {
 	position: relative;
 }
 
+/* Tooltip styling */
 #tail1 {
     position: absolute;
     bottom: -20px;
@@ -157,10 +158,10 @@ it as placeholder text */
 	padding: 10px 30px;
 	border: 2px solid #eaeaea;
 	font-size: 20px;
-	color: #424242;
-	background: #ffffff;
+	color: #777;
+	background: #eaeaea;
 	font-weight: bold;
-	box-shadow: 1px 3px outset;
+	box-shadow: 5px 10px outset;
 	width: 45%;
 }
 
